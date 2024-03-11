@@ -1,0 +1,54 @@
+.btn-primary-v2{
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.btn-success-v2{
+    background-color: var(--success-color) !important;
+    color: white !important;
+}
+
+.btn-secondary-v2{
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+}
+
+.btn-danger-v2{
+    background-color: var(--danger-color) !important;
+    color: white !important;
+}
+
+.btn-warning-v2{
+    background-color: var(--warning-color) !important;
+    color: white !important;
+}
+
+.btn-white{
+    background-color: white !important;
+    color: var(--primary-color) !important;
+}
+
+.login-social li{
+    background-color: rgba(var(--primary-color-rgb), 0.1) !important;
+}
+
+.btn-sidebar-toggle{
+    cursor: pointer;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+    height: 30px;
+    width: 30px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    border: 1px solid var(--sub-border-color);
+}
+
+.btn-sidebar-toggle i {
+    transition: transform 0.8s ease-in-out;
+  }
+
+.btn-sidebar-toggle:hover{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color) !important;
+}

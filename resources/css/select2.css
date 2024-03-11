@@ -1,0 +1,56 @@
+.select2 .selection .container-style-outlined-no-hover {
+    font-size: 14px !important;
+    border: 1px solid var(--primary-color) !important;
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+    padding-top: 1.2px !important;
+    padding-bottom: 1.2px !important;
+}
+
+.select2 .selection .container-style-outlined {
+    font-size: 14px !important;
+    border: 1px solid var(--primary-color) !important;
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+    padding-top: 1.2px !important;
+    padding-bottom: 1.2px !important;
+}
+
+.select2 .selection .container-style-outlined:hover {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.select2-container--default .select2-results__options .select2-results__option[aria-selected=true]{
+    background-color: rgba(var(--primary-color-rgb), 0.1) !important;
+    color: rgb(79, 47, 47) !important;
+}
+
+.select2 .selection  .container-style-outlined-light{
+    cursor: pointer;
+    font-size: 14px !important;
+    border: 1px solid var(--sub-border-color) !important;
+    background-color: transparent !important;
+    color: var(--sub-border-color) !important;
+    padding-top: 1.2px !important;
+    padding-bottom: 1.2px !important;
+}
+
+.select2 .selection  .container-style-outlined-light:hover{
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.select2-results__options::-webkit-scrollbar {
+    width: 6px; /* Adjust to make it slim */
+    height: 4px; /* Adjust to make it slim */
+}
+
+.select2-results__options::-webkit-scrollbar-thumb {
+    background-color: #888; /* Customize the thumb color */
+    border-radius: 3px; /* Rounded corners for the thumb */
+}
+
+.select2-results__options::-webkit-scrollbar-track {
+    background-color: #ccc; /* Customize the track color */
+}

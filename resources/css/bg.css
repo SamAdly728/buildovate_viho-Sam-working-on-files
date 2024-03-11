@@ -1,0 +1,170 @@
+.bg-white-50{
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+.bg-white-75{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.bg-gray-25{
+    background-color: rgba(var(--gray-color-rgb), 0.5);
+}
+
+.bg-white{
+    background-color:  var(--white-color) !important;
+}
+
+.bg-primary{
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary{
+    background-color: var(--secondary-color) !important;
+}
+
+.bg-secondary-light{
+    background-color: var(--secondary-light-color) !important;
+}
+
+.bg-light{
+    background-color: var(--light-color) !important;
+}
+
+.bg-muted{
+    background-color: var(--muted-color) !important;
+}
+
+.bg-main{
+    background-color: var(--background-color) !important;
+}
+
+.bg-primary-v2{
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary-v2{
+    background-color: var(--secondary-color) !important;
+}
+
+.bg-light-success-v2{
+    background-color: var(--light-success-color) !important;
+}
+
+.bg-success-v2{
+    background-color: var(--success-color) !important;
+}
+
+.bg-warning-v2{
+    background-color: var(--warning-color) !important;
+}
+
+.bg-danger-v2{
+    background-color: var(--danger-color) !important;
+}
+
+.bg-primary-1-v2{
+    background-color:  rgba(var(--primary-color-rgb), 0.1) !important;
+}
+
+.bg-secondary-1-v2{
+    background-color:  rgba(var(--secondary-color-rgb), 0.1) !important;
+}
+
+.bg-success-1-v2{
+    background-color:  rgba(var(--success-color-rgb), 0.1) !important;
+}
+
+.bg-warning-1-v2{
+    background-color:  rgba(var(--warning-color-rgb), 0.1) !important;
+}
+
+.bg-danger-1-v2{
+    background-color:  rgba(var(--danger-color-rgb), 0.1) !important;
+}
+
+.modal-transparent{
+    background-color: var(--modal-background-color);
+}
+
+.bg-primary-overlap {
+  position: relative; /* Required for absolute positioning of the :after pseudo-element */
+  background-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+
+.bg-primary-overlap:after {
+  content: ''; /* Required for the pseudo-element to be generated */
+  position: absolute; /* Position relative to the .bg-primary-overlap */
+  top: 0; /* Align to the top of the .bg-primary-overlap */
+  left: 90%; /* Position the pseudo-element immediately after the .bg-primary-overlap */
+  width: 100px; /* Extra 200px width */
+  height: 100%; /* Same height as the .bg-primary-overlap */
+  background-color: var(--primary-color); /* Same background color as the .bg-primary-overlap */
+}
+
+.bg-secondary-overlap {
+  position: relative; /* Required for absolute positioning of the :after pseudo-element */
+  background-color: var(--secondary-color) !important;
+  color: var(--white-color) !important;
+}
+
+.bg-secondary-overlap:after {
+  content: ''; /* Required for the pseudo-element to be generated */
+  position: absolute; /* Position relative to the .bg-primary-overlap */
+  top: 0; /* Align to the top of the .bg-primary-overlap */
+  left: 90%; /* Position the pseudo-element immediately after the .bg-primary-overlap */
+  width: 100px; /* Extra 200px width */
+  height: 100%; /* Same height as the .bg-primary-overlap */
+  background-color: var(--secondary-color); /* Same background color as the .bg-primary-overlap */
+}
+
+
+.bg-danger-overlap {
+  position: relative; /* Required for absolute positioning of the :after pseudo-element */
+  background-color: var(--danger-color) !important;
+  color: var(--white-color) !important;
+}
+
+.bg-danger-overlap:after {
+  content: ''; /* Required for the pseudo-element to be generated */
+  position: absolute; /* Position relative to the .bg-primary-overlap */
+  top: 0; /* Align to the top of the .bg-primary-overlap */
+  left: 90%; /* Position the pseudo-element immediately after the .bg-primary-overlap */
+  width: 100px; /* Extra 200px width */
+  height: 100%; /* Same height as the .bg-primary-overlap */
+  background-color: var(--danger-color); /* Same background color as the .bg-primary-overlap */
+}
+
+
+.bg-warning-overlap {
+  position: relative; /* Required for absolute positioning of the :after pseudo-element */
+  background-color: var(--warning-color) !important;
+  color: var(--white-color) !important;
+}
+
+.bg-warning-overlap:after {
+  content: ''; /* Required for the pseudo-element to be generated */
+  position: absolute; /* Position relative to the .bg-primary-overlap */
+  top: 0; /* Align to the top of the .bg-primary-overlap */
+  left: 90%; /* Position the pseudo-element immediately after the .bg-primary-overlap */
+  width: 100px; /* Extra 200px width */
+  height: 100%; /* Same height as the .bg-primary-overlap */
+  background-color: var(--warning-color); /* Same background color as the .bg-primary-overlap */
+}
+
+
+.bg-success-overlap {
+  position: relative; /* Required for absolute positioning of the :after pseudo-element */
+  background-color: var(--success-color) !important;
+  color: var(--white-color) !important;
+}
+
+.bg-success-overlap:after {
+  content: ''; /* Required for the pseudo-element to be generated */
+  position: absolute; /* Position relative to the .bg-primary-overlap */
+  top: 0; /* Align to the top of the .bg-primary-overlap */
+  left: 90%; /* Position the pseudo-element immediately after the .bg-primary-overlap */
+  width: 100px; /* Extra 200px width */
+  height: 100%; /* Same height as the .bg-primary-overlap */
+  background-color: var(--success-color); /* Same background color as the .bg-primary-overlap */
+}

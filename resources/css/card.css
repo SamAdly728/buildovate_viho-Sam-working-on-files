@@ -1,0 +1,7 @@
+.login-card{
+    background-color: rgba(var(--primary-color-rgb), 0.4) !important;
+}
+
+.card-radious-sm{
+    border-radius: 5px !important;
+}

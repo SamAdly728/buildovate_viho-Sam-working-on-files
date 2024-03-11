@@ -1,0 +1,27 @@
+.slim-scroll-light::-webkit-scrollbar {
+    width: 6px; /* Adjust to make it slim */
+    height: 4px; /* Adjust to make it slim */
+}
+
+.slim-scroll-light::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color); /* Customize the thumb color */
+    border-radius: 3px; /* Rounded corners for the thumb */
+}
+
+.slim-scroll-light::-webkit-scrollbar-track {
+    background-color: rgba(var(--light-color-rgb), 0.7); /* Customize the track color */
+}
+
+.slim-scroll-gray::-webkit-scrollbar {
+    width: 6px; /* Adjust to make it slim */
+    height: 4px; /* Adjust to make it slim */
+}
+
+.slim-scroll-gray::-webkit-scrollbar-thumb {
+    background-color: var(--sub-border-color); /* Customize the thumb color */
+    border-radius: 3px; /* Rounded corners for the thumb */
+}
+
+.slim-scroll-gray::-webkit-scrollbar-track {
+    background-color: rgba(var(--gray-color-rgb), 0.4); /* Customize the track color */
+}

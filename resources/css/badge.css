@@ -1,0 +1,24 @@
+.badge-primary{
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}
+
+.badge-secondary{
+    background-color: var(--secondary-color) !important;
+    color: var(--font-color) !important;
+}
+
+.badge-success{
+    background-color: var(--success-color) !important;
+    color: var(--white-color) !important;
+}
+
+.badge-warning{
+    background-color: var(--warning-color) !important;
+    color: var(--font-color) !important;
+}
+
+.badge-danger{
+    background-color: var(--danger-color) !important;
+    color: var(--white-color) !important;
+}

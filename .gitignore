@@ -1,0 +1,211 @@
+node_modules/
+vendor/
+public/build/
+package-lock.json/
+.env/
+.env
+node_modules
+vendor
+public/build
+Archive.zip
+vendor/bin/phpunit.bat
+vendor/bin/sail
+vendor/bin/sail.bat
+vendor/composer/autoload_classmap.php
+vendor/composer/autoload_static.php
+vendor/composer/installed.json
+vendor/composer/installed.php
+vendor/inertiajs/inertia-laravel/_ide_helpers.php
+vendor/inertiajs/inertia-laravel/composer.json
+vendor/inertiajs/inertia-laravel/helpers.php
+vendor/inertiajs/inertia-laravel/src/Inertia.php
+vendor/inertiajs/inertia-laravel/src/Response.php
+vendor/inertiajs/inertia-laravel/src/ResponseFactory.php
+vendor/inertiajs/inertia-laravel/src/Testing/Concerns/Has.php
+vendor/laravel/framework/CHANGELOG.md
+vendor/laravel/framework/composer.json
+vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php
+vendor/laravel/framework/src/Illuminate/Collections/Arr.php
+vendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php
+vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php
+vendor/laravel/framework/src/Illuminate/Foundation/Application.php
+vendor/laravel/framework/src/Illuminate/Foundation/Console/ModelMakeCommand.php
+vendor/laravel/framework/src/Illuminate/Foundation/Console/stubs/view.pest.stub
+vendor/laravel/framework/src/Illuminate/Foundation/Console/stubs/view.stub
+vendor/laravel/framework/src/Illuminate/Foundation/Console/stubs/view.test.stub
+vendor/laravel/framework/src/Illuminate/Foundation/Console/ViewMakeCommand.php
+vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php
+vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php
+vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseTruncation.php
+vendor/laravel/framework/src/Illuminate/Http/Client/Concerns/DeterminesStatusCode.php
+vendor/laravel/framework/src/Illuminate/Http/Client/PendingRequest.php
+vendor/laravel/framework/src/Illuminate/Mail/Mailer.php
+vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php
+vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php
+vendor/laravel/framework/src/Illuminate/Support/Facades/Response.php
+vendor/laravel/framework/src/Illuminate/Support/MessageBag.php
+vendor/laravel/framework/src/Illuminate/Support/Str.php
+vendor/laravel/framework/src/Illuminate/View/Component.php
+vendor/laravel/framework/src/Illuminate/View/ComponentAttributeBag.php
+vendor/laravel/prompts/phpunit.xml
+vendor/laravel/prompts/src/Concerns/Fallback.php
+vendor/laravel/prompts/src/Concerns/ReducesScrollingToFitTerminal.php
+vendor/laravel/prompts/src/MultiSelectPrompt.php
+vendor/laravel/prompts/src/Prompt.php
+vendor/laravel/prompts/src/SearchPrompt.php
+vendor/laravel/prompts/src/SelectPrompt.php
+vendor/laravel/prompts/src/Spinner.php
+vendor/laravel/prompts/src/SuggestPrompt.php
+vendor/laravel/prompts/src/Terminal.php
+vendor/laravel/prompts/src/Themes/Contracts/Scrolling.php
+vendor/laravel/prompts/src/Themes/Default/Concerns/DrawsBoxes.php
+vendor/laravel/prompts/src/Themes/Default/MultiSelectPromptRenderer.php
+vendor/laravel/prompts/src/Themes/Default/Renderer.php
+vendor/laravel/prompts/src/Themes/Default/SearchPromptRenderer.php
+vendor/laravel/prompts/src/Themes/Default/SelectPromptRenderer.php
+vendor/laravel/prompts/src/Themes/Default/SuggestPromptRenderer.php
+vendor/laravel/sail/bin/sail
+vendor/laravel/sail/runtimes/8.0/Dockerfile
+vendor/laravel/sail/runtimes/8.1/Dockerfile
+vendor/laravel/sail/runtimes/8.2/Dockerfile
+vendor/laravel/sail/runtimes/8.3/Dockerfile
+vendor/laravel/sanctum/config/sanctum.php
+vendor/phpunit/php-code-coverage/ChangeLog-10.1.md
+vendor/phpunit/php-code-coverage/src/CodeCoverage.php
+vendor/phpunit/php-code-coverage/src/Report/PHP.php
+vendor/phpunit/php-code-coverage/src/Version.php
+vendor/phpunit/phpunit/ChangeLog-10.3.md
+vendor/phpunit/phpunit/composer.json
+vendor/phpunit/phpunit/DEPRECATIONS.md
+vendor/phpunit/phpunit/src/Runner/CodeCoverage.php
+vendor/phpunit/phpunit/src/Runner/Version.php
+public/build/manifest.json
+public/build/assets/app-9ebf0535.js
+public/build.zip
+node_modules/vite/package.json
+node_modules/update-browserslist-db/package.json
+node_modules/tailwindcss/package.json
+node_modules/sucrase/package.json
+node_modules/rollup/package.json
+node_modules/resolve/package.json
+node_modules/resolve/.editorconfig
+node_modules/nanoid/package.json
+node_modules/jiti/package.json
+node_modules/esbuild/package.json
+node_modules/esbuild/bin/esbuild
+node_modules/cssesc/package.json
+node_modules/browserslist/package.json
+node_modules/autoprefixer/package.json
+node_modules/@esbuild/win32-x64/README.md
+node_modules/@esbuild/win32-x64/package.json
+node_modules/@esbuild/win32-x64/esbuild.exe
+node_modules/@babel/parser/package.json
+node_modules/.vite/deps_temp_3fdb18fc/vue.js.map
+node_modules/.vite/deps_temp_3fdb18fc/vue.js
+node_modules/.vite/deps_temp_3fdb18fc/package.json
+node_modules/.vite/deps_temp_3fdb18fc/chunk-REVU6PXZ.js.map
+node_modules/.vite/deps_temp_3fdb18fc/chunk-REVU6PXZ.js
+node_modules/.vite/deps_temp_3fdb18fc/@inertiajs_vue3.js.map
+node_modules/.vite/deps_temp_3fdb18fc/@inertiajs_vue3.js
+node_modules/.package-lock.json
+node_modules/.bin/vite.ps1
+node_modules/.bin/vite.cmd
+node_modules/.bin/vite
+node_modules/.bin/update-browserslist-db.ps1
+node_modules/.bin/update-browserslist-db.cmd
+node_modules/.bin/update-browserslist-db
+node_modules/.bin/tailwindcss.ps1
+node_modules/.bin/tailwindcss.cmd
+node_modules/.bin/tailwindcss
+node_modules/.bin/tailwind.ps1
+node_modules/.bin/tailwind.cmd
+node_modules/.bin/tailwind
+node_modules/.bin/sucrase.ps1
+node_modules/.bin/sucrase.cmd
+node_modules/.bin/sucrase-node.ps1
+node_modules/.bin/sucrase-node.cmd
+node_modules/.bin/sucrase-node
+node_modules/.bin/sucrase
+node_modules/.bin/rollup.ps1
+node_modules/.bin/rollup.cmd
+node_modules/.bin/rollup
+node_modules/.bin/resolve.ps1
+node_modules/.bin/resolve.cmd
+node_modules/.bin/resolve
+node_modules/.bin/parser.ps1
+node_modules/.bin/parser.cmd
+node_modules/.bin/parser
+node_modules/.bin/nanoid.ps1
+node_modules/.bin/nanoid.cmd
+node_modules/.bin/nanoid
+node_modules/.bin/jiti.ps1
+node_modules/.bin/jiti.cmd
+node_modules/.bin/jiti
+node_modules/.bin/esbuild.ps1
+node_modules/.bin/esbuild.cmd
+node_modules/.bin/esbuild
+node_modules/.bin/cssesc.ps1
+node_modules/.bin/cssesc.cmd
+node_modules/.bin/cssesc
+node_modules/.bin/browserslist.ps1
+node_modules/.bin/browserslist.cmd
+node_modules/.bin/browserslist
+node_modules/.bin/autoprefixer.ps1
+node_modules/.bin/autoprefixer.cmd
+node_modules/.bin/autoprefixer
+vendor/bin/phpunit.bat
+public/build/manifest.json
+public/build/assets/app-bcc9565e.css
+public/build/manifest.json
+public/hot
+public/build 2.zip
+.env
+public/hot
+resources/js/Pages/Dashboard copy.vue
+Archive 2.zip
+resources/js/Pages/TestFBLogin copy.vue
+resources/js/Pages/TestFBLogin copy 2.vue
+.env
+public/assets/images/knowledgebase/bg_1 copy.png
+resources/js/components/SideBarInbox copy.vue
+resources/js/Pages/Inbox copy.vue
+resources/js/components/ChatComponent copy.vue
+resources/js/components/ChatComponent copy 2.vue
+resources/js/components/ChatComponent copy 3.vue
+.env
+Archive 3.zip
+resources/js/components/TopBar copy.vue
+resources/js/components/ChatComponent copy 4.vue
+.vscode/launch.json
+public/conf/token.json
+public/conf/token49.json
+resources/views/app.blade copy.php
+app/Http/Controllers/InboxController copy.php
+public/build 3.zip
+app/Models/GAPI copy.php
+app/Models/GAPI copy.php
+public.zip
+resources/js/Pages/company/Users copy.vue
+resources/js/Pages/production/CrewManagement copy.vue
+.env copy 2
+resources/js/Pages/production/CrewManagement copy 2.vue
+resources/js/Pages/tests/Test copy.vue
+Archive 4.zip
+public/build 4.zip
+Archive 5.zip
+public/build 5.zip
+resources/js/Pages/Admin copy.vue
+public/uploads/logos/54logo.png
+Archive 6.zip
+public/build 6.zip
+public/build 7.zip
+Archive 7.zip
+resources/js/Pages/company/Details copy.vue
+resources/js/Pages/tests/ImageCropper copy.vue
+resources/js/Pages/inbox/Settings copy.vue
+.env
+.env
+.env
+resources/js/components/kanban/List copy.vue
+resources/js/Pages/Kanban copy.vue
+resources/js/Pages/Dashboard copy 2.vue

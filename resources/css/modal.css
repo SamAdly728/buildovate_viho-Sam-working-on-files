@@ -1,0 +1,6 @@
+.modal-fullscreen{
+    width: calc(100% - 40px); /* 20px * 2  (margin) */
+    height:  calc(100% - 40px); /* 20px * 2  (margin) */
+    margin: 20px;
+    padding: 0;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c8cfbbf9-4743-46b2-af8f-52d054ec0df3" name="buildovate">
+        <fileTransfer rootFolder="/home/devbuildovatecom/public_html" accessType="SFTP" host="dev.buildovate.com" port="22" sshConfigId="a464c642-25b4-4bc9-b222-5b6a8755f8ba" sshConfig="devbuildovatecom@dev.buildovate.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

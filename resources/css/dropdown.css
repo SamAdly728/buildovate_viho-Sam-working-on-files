@@ -1,0 +1,81 @@
+.profile-dropdown{
+    position: absolute;
+    top: 12px;
+    left: -260px;
+    width: 300px;
+    border: 2px solid var(--primary-color);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 2px solid var(--primary-color);
+}
+
+.profile-dropdown::before {
+    content: '';
+    position: absolute;
+    top: -15px; /* Adjust the value to position the arrow above the dropdown */
+    right: -2px; /* Position the arrow towards the top-right corner */
+    border-left: 200px solid transparent; /* Left side of arrow */
+    border-right: 0px solid transparent; /* Right side of arrow */
+    border-bottom: 15px solid var(--primary-color); /* Bottom side of arrow (actually the arrow itself) */
+}
+
+.easycreate-dropdown{
+    position: absolute;
+    top: 20px;
+    left: -190px;
+    width: 220px;
+    border: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color)
+}
+
+.easycreate-dropdown::before {
+    content: '';
+    position: absolute;
+    top: -20px; /* Adjust the value to position the arrow above the dropdown */
+    right: -2px; /* Position the arrow towards the top-right corner */
+    border-left: 90px solid transparent; /* Left side of arrow */
+    border-right: 0px solid transparent; /* Right side of arrow */
+    border-bottom: 20px solid var(--primary-color); /* Bottom side of arrow (actually the arrow itself) */
+}
+
+.easycreate-dropdown-reverse{
+    position: absolute;
+    top: 20px;
+    left: -190px;
+    width: 220px;
+    border: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color)
+}
+
+.easycreate-dropdown-reverse::before {
+    content: '';
+    position: absolute;
+    top: -20px; /* Adjust the value to position the arrow above the dropdown */
+    right: 208px; /* Position the arrow towards the top-right corner */
+    border-left: 0px solid transparent; /* Left side of arrow */
+    border-right: 90px solid transparent; /* Right side of arrow */
+    border-bottom: 20px solid var(--primary-color); /* Bottom side of arrow (actually the arrow itself) */
+}
+
+
+.manage-people-dropdown{
+    position: absolute;
+    top: 20px;
+    left: -270px;
+    width: 300px;
+    border: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color);
+}
+
+.manage-people-dropdown::before {
+    content: '';
+    position: absolute;
+    top: -20px; /* Adjust the value to position the arrow above the dropdown */
+    right: -2px; /* Position the arrow towards the top-right corner */
+    border-left: 90px solid transparent; /* Left side of arrow */
+    border-right: 0px solid transparent; /* Right side of arrow */
+    border-bottom: 20px solid var(--primary-color); /* Bottom side of arrow (actually the arrow itself) */
+}
+
+

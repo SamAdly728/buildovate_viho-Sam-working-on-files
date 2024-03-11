@@ -1,0 +1,32 @@
+{
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 130,
+        "tabWidth": 2,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": false,
+        "trailingComma": "all",
+        "htmlWhitespaceSensitivity": "ignore",
+        "proseWrap": "always",
+        "embeddedLanguageFormatting": "auto"
+      }
+    },
+    {
+      "files": ["*.php", "*.js", "*.vue"],
+      "options": {
+        "printWidth": 130,
+        "tabWidth": 2,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": false,
+        "trailingComma": "all",
+        "htmlWhitespaceSensitivity": "ignore",
+        "proseWrap": "always",
+        "embeddedLanguageFormatting": "auto"
+      }
+    }
+  ]
+}

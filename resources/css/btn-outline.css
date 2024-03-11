@@ -1,0 +1,42 @@
+.btn-outline-light:hover{
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}    
+
+.btn-outline-light{
+    border-color: var(--sub-border-color) !important;
+    color: var(--sub-border-color) !important;
+}
+
+.btn-outline-primary-v2:hover{
+    background-color: var(--white-color) !important;
+    color: var(--primary-color) !important;
+}    
+
+.btn-outline-primary-v2{
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}
+
+.btn-outline-custom-primary{
+    cursor: pointer;
+    border: 1px solid var(--primary-color) !important;
+    border-radius: 5px;
+    color: var(--primary-color) !important;
+}
+
+.btn-outline-custom-primary:hover{
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}
+
+.btn-outline-custom-muted{
+    cursor: pointer;
+    border: 1px solid var(--sub-border-color) !important;
+    border-radius: 5px;
+}
+
+.btn-outline-custom-muted:hover{
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}

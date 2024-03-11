@@ -1,0 +1,71 @@
+.rotate-icon {
+  transform: rotate(180deg); /* Adjust the angle as needed */
+}
+
+/* Define the initial state of the component */
+.bigger {
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+  transform: scale(1); /* Initial scale is 100% */
+}
+
+/* Define the hover state */
+.bigger:hover {
+  transform: scale(1.05); /* Enlarge the component to 110% of its original size */
+}
+
+.right-slide-animation-in{
+  margin-right: -320px;
+  width: 320px;
+  height: 100vh;
+  -webkit-animation: slide-in 0.5s forwards;
+  animation: slide-in 0.5s forwards;
+}
+
+@-webkit-keyframes slide-in {
+  100% { margin-right: 0; }
+}
+
+@keyframes slide-in {
+  100% { margin-right: 0; }
+}
+
+.right-slide-animation-out{
+  margin-right: 0;
+  width: 320px;
+  height: 100vh;
+  -webkit-animation: slide-out 0.5s forwards;
+  animation: slide-out 0.5s forwards;
+}
+
+@-webkit-keyframes slide-out {
+  100% { margin-right: -320px; }
+}
+
+@keyframes slide-out {
+  100% { margin-right: -320px; }
+}
+
+.underline-effect {
+  position: relative; /* Establish a positioning context */
+  display: inline-block; /* Treat the element as inline-block for proper sizing */
+}
+
+.underline-effect::after {
+  content: ''; /* Required for the pseudo-element to show */
+  position: absolute; /* Position relative to its parent */
+  left: 0;
+  right: 0;
+  bottom: -3px; /* Adjust the position of the underline */
+  height: 3px; /* Initial thickness of the underline */
+  background: var(--primary-color); /* Use the text color for the underline */
+  transition: height 0.3s ease, background-color 0.3s ease; /* Smooth transition for the underline's thickness */
+}
+
+.underline-effect:hover::after {
+  height: 5px; /* Increase the thickness of the underline on hover */
+}
+
+.border-input:hover{
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+}

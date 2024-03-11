@@ -1,0 +1,81 @@
+/* Transparent */
+.bg-hover:hover{
+    background-color: rgba(var(--primary-color-rgb), 0.1);
+}
+
+.bg-hover-primary-primary:hover{
+    background-color: rgba(var(--primary-color-rgb), 0.1);
+    color: var(--primary-color) !important;
+}
+
+.bg-hover-primary:hover{
+    background-color: rgba(var(--primary-color-rgb), 0.1);
+}
+
+.bg-hover-secondary:hover{
+    background-color: rgba(var(--secondary-color-rgb), 0.1);
+}
+
+.bg-hover-success:hover{
+    background-color: rgba(var(--success-color-rgb), 0.1);
+}
+
+.bg-hover-success-success:hover{
+    background-color: rgba(var(--success-color-rgb), 0.1);
+    color: var(--success-color) !important;
+}
+
+.bg-hover-warning:hover{
+    background-color: rgba(var(--warning-color-rgb), 0.1);
+}
+
+.bg-hover-light:hover{
+    background-color: var(--secondary-light-color);
+}
+
+.bg-hover-danger:hover{
+    background-color: rgba(var(--danger-color-rgb), 0.1);
+}
+
+.bg-hover-danger-danger:hover{
+    background-color: rgba(var(--danger-color-rgb), 0.1);
+    color: var(--danger-color) !important;
+}
+/* END Transparent */
+
+/* Solid */
+
+.bg-solid-hover:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.bg-solid-hover-primary:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.bg-solid-hover-secondary:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.bg-solid-hover-secondary-light:hover{
+    background-color: var(--secondary-light-color);
+}
+
+.bg-solid-hover-success:hover{
+    background-color: var(--success-color);
+    color: var(--white-color);
+}
+
+.bg-solid-hover-warning:hover{
+    background-color: var(--warning-color);
+    color: var(--white-color);
+}
+
+.bg-solid-hover-danger:hover{
+    background-color: var(--danger-color);
+    color: var(--white-color);
+}
+/* End Solid */

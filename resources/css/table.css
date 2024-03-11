@@ -1,0 +1,61 @@
+.light-row{
+    background-color: rgba(var(--light-color-rgb), 0.3);
+}
+
+.table_header{
+    background-color: rgba(var(--primary-color-rgb), 1);
+    position: sticky;
+    color: white;
+    top: 0;
+    z-index: 3;
+}
+
+.table_sub_header{
+    background-color: rgba(var(--secondary-color-rgb), 1);
+    position: sticky;
+    color: white;
+    top: 0;
+    z-index: 3;
+}
+
+.table_footer{
+    background-color: rgba(var(--primary-color-rgb), 1);
+    position: absolute;
+    color: white;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pagination-primary-v2 li .page-link{
+    border-radius: 8px;
+    border: none;
+    color: var(--muted-color) !important;
+}
+
+.pagination-primary-v2 .page-active .page-link{
+    border-radius: 8px;
+    border: none;
+    background-color: var(--white-color) !important;
+    color: var(--primary-color) !important;
+}
+
+
+
+.hidden-sort {
+    visibility: hidden;
+}
+
+/* This will make the sort icon visible when the parent div is hovered over */
+.table_header:hover .hidden-sort {
+    visibility: visible;
+}
+
+.checkbox-style{
+    height: 18px; 
+    width: 18px; 
+    border-radius: 2px; 
+    padding: 3px !important; 
+    position: relative !important;
+}

@@ -1,0 +1,75 @@
+.breakdown-popover{
+    position: absolute;
+    z-index: 10;
+    padding: 15px;
+    top: 30px;
+    left: calc(50% - 175px);
+    width: 350px;
+    background-color: var(--white-color) !important;
+    border: solid 2px var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.06);
+}
+
+.breakdown-popover::before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Position it at the top */
+    left: calc(50% - 5px); /* Center it horizontally. The arrow is 10px wide, so we subtract half of that */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid var(--primary-color); /* This forms the upward pointing arrow */
+}
+
+.import-hover-effect:hover{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: var(--white-color) !important;
+}
+
+.import-popover{
+    position: absolute;
+    z-index: 10;
+    padding: 15px;
+    top: 40px;
+    left: calc(50% - 150px);
+    width: 290px;
+    background-color: var(--white-color);
+    border: solid 2px var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.06);
+}
+
+
+.import-popover::before{
+    content: '';
+    position: absolute;
+    top: -10px; /* Position it at the top */
+    left: calc(50% - 5px); /* Center it horizontally. The arrow is 10px wide, so we subtract half of that */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid var(--primary-color); /* This forms the upward pointing arrow */
+}
+
+.sendOptions-popover{
+    position: absolute;
+    z-index: 10;
+    padding: 15px;
+    top: calc(50% - 175px);
+    right: 0;
+    width: 250px;
+    background-color: var(--white-color);
+    border: solid 2px var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.06);
+}
+
+.sendOptions-popover::before {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Position it at the top */
+    left: calc(80% - 5px); /* Center it horizontally. The arrow is 10px wide, so we subtract half of that */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid var(--primary-color);; /* This forms the upward pointing arrow */
+}

@@ -1,0 +1,6 @@
+.active_menu{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: var(--white-color);
+    color: var(--primary-color) !important;
+}

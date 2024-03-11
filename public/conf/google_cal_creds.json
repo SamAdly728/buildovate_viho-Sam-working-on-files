@@ -1,0 +1,22 @@
+{
+  "web": {
+    "client_id": "707140040932-avtbcjkuc0n38n6pk87ir8pl80m7m074.apps.googleusercontent.com",
+    "project_id": "calendarv2-412614",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "redirect_uris": [
+      "https://dev.buildovate.com/auth/google/callback",
+      "https://dev2.buildovate.io/auth/google/callback",
+      "http://127.0.0.1:8000/auth/google/callback",
+      "https://buildovate.com/auth/google/callback"
+    ],
+    "javascript_origins": [
+      "https://dev.buildovate.com",
+      "https://dev2.buildovate.io",
+      "http://127.0.0.1",
+      "https://buildovate.com"
+    ]
+  }
+}
